@@ -1,0 +1,31 @@
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(248, 242, 232);
+  padding: 2rem;
+
+  .title {
+    font-weight: 700;
+    color: rgb(97, 91, 77);
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    .img-wrapper {
+      background-color: rgb(255, 239, 211);
+      width: fit-content;
+    }
+  }
+
+  .launch {
+    button {
+      padding: 1rem 3rem;
+      background-color: rgb(255, 204, 116);
+      font-weight: 700;
+      color: rgb(85, 54, 0);
+      border-radius: 10rem;
+      cursor: pointer;
+    }
+  }
+}

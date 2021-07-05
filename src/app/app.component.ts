@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'signature-demo';
+  showPad = true;
+  signImage = '';
+
+  constructor() {
+
+  }
+
+  onClose() {
+    this.showPad = false;
+  }
+
+  onUse(image) {
+    this.signImage = image;
+  }
 }
