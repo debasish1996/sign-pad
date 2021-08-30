@@ -15,7 +15,7 @@ export class AppComponent {
   }
 
   onClose() {
-    console.log('i need this');
+    this.showPad = true;
     console.log('I have done some work here..!!');
   }
 
