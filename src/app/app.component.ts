@@ -16,6 +16,7 @@ export class AppComponent {
 
   onClose() {
     console.log('i need this');
+    console.log('I have done some work here..!!');
   }
 
   onUse(image) {
