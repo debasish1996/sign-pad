@@ -15,8 +15,7 @@ export class AppComponent {
   }
 
   onClose() {
-    this.showPad = true;
-    console.log('I have done some work here..!!');
+    this.showPad = false;
   }
 
   onUse(image) {
